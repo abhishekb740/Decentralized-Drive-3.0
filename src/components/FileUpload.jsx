@@ -50,7 +50,7 @@ const FileUpload = () => {
     return (
         <div>
             <Box sx={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '2rem', paddingTop: '2rem' }}>
-                <Button sx={{ border: '1px solid black', color: 'black' }} onClick={() => setOpen(true)}>Upload Image</Button>
+                <Button sx={{ border: '1px solid white', color: 'white' }} onClick={() => setOpen(true)}>Upload Image</Button>
                 <Modal
                     open={open}
                     onClose={() => setOpen(false)}
